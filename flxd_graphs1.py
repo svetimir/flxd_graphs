@@ -4,7 +4,7 @@
 # AUTHOR: fluxoid, ifi@yandex.ru
 # STARTED: 22.01.2019
 # VERSION: 0.1
-# LATEST FILE REVISION: 22.01.2019
+# LATEST FILE REVISION: 26.01.2019
 
 import numpy as np
 import math
