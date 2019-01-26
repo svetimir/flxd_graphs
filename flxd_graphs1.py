@@ -25,8 +25,10 @@ def show_help():
 # разбор математического выражения
 def parse_math(expr):
     if expr!='':
+        # вот здесь самая главная часть программы
         res=lambdastr(x,expr)
         res=eval(res)
+        # ----------
         return res
     else:
         return False
@@ -50,11 +52,9 @@ def main():
 
     while 1:
         text=input('input_function(x)>')
-        if text=='q':
+        if text=='q' or text=='exit':
             break
-        if text=='exit':
-            break
-        if text=='help':
+        elif text=='help':
             show_help()
             continue
         expr=parse_math(text)
